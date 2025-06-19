@@ -10,6 +10,7 @@ const MasterLayout = ({ children }) => {
   let [sidebarActive, seSidebarActive] = useState(false);
   let [mobileMenu, setMobileMenu] = useState(false);
   const location = usePathname(); // Hook to get the current route
+  const username = localStorage.getItem('name')
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -1770,7 +1771,7 @@ const MasterLayout = ({ children }) => {
                     <div className='py-12 px-16 radius-8 bg-primary-50 mb-16 d-flex align-items-center justify-content-between gap-2'>
                       <div>
                         <h6 className='text-lg text-primary-light fw-semibold mb-2'>
-                          Shaidul Islam
+                          {username}
                         </h6>
                         <span className='text-secondary-light fw-medium text-sm'>
                           Admin

@@ -115,7 +115,7 @@ const SignInLayer = () => {
         .signin-section {
           min-height: 100vh;
           position: relative;
-          background-image: url('assets/images/logo.png');
+          background-image: url('https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -230,7 +230,7 @@ const SignInLayer = () => {
         .signin-logo {
           width: 80px;
           height: 80px;
-          background: linear-gradient(45deg, #3b82f6, #9333ea, #ec4899);
+          background-image: url('assets/images/logo.png');
           border-radius: 50%;
           box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
           animation: pulse 2s infinite;

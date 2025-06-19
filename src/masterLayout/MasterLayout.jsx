@@ -480,11 +480,11 @@ const MasterLayout = ({ children }) => {
                 </li>
                 <li>
                   <Link
-                    href='/button'
-                    className={pathname === "/button" ? "active-page" : ""}
+                    href='/home'
+                    className={pathname === "/home" ? "active-page" : ""}
                   >
                     <i className='ri-circle-fill circle-icon text-success-main w-auto' />{" "}
-                    Button
+                    Crisis Management System
                   </Link>
                 </li>
                 <li>

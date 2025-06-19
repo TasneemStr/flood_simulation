@@ -424,9 +424,10 @@ const SignInLayer = () => {
 
           <div className="text-center mb-5">
             {/* Logo */}
-            <div className="signin-logo d-flex align-items-center justify-content-center mx-auto mb-4">
-              <div className="signin-logo-inner d-flex align-items-center justify-content-center">
-                <div className="signin-logo-dot"></div>
+            <div className=" d-flex align-items-center justify-content-center mx-auto mb-4">
+              <div className="d-flex align-items-center justify-content-center">
+                {/* <div className="signin-logo-dot"></div> */}
+                <img src="assets/images/logo.png" />
               </div>
             </div>
             
@@ -486,12 +487,11 @@ const SignInLayer = () => {
             <div className="position-relative my-4">
               <hr style={{borderColor: 'rgba(255, 255, 255, 0.3)'}} />
               <div className="position-absolute top-50 start-50 translate-middle px-3 text-blue-200 small" style={{backgroundColor: 'transparent'}}>
-                Or sign in with
               </div>
             </div>
             
             {/* Social Login Buttons */}
-            <div className="row g-3 mb-4">
+            {/* <div className="row g-3 mb-4">
               <div className="col-6">
                 <button
                   type="button"
@@ -514,7 +514,7 @@ const SignInLayer = () => {
                   <span className="fw-medium">Google</span>
                 </button>
               </div>
-            </div>
+            </div> */}
             
             {/* Sign Up Link */}
             <div className="text-center small">

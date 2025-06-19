@@ -10,22 +10,22 @@ const TabsLayer = () => {
         <div className="row gy-4">
 
             {/* DefaultTabs */}
-            <DefaultTabs />
+            {/* <DefaultTabs /> */}
 
             {/* FocusTabs */}
-            <FocusTabs />
+            {/* <FocusTabs /> */}
 
             {/* ButtonTabs */}
-            <ButtonTabs />
+            {/* <ButtonTabs /> */}
 
             {/* ButtonTabsTwo */}
             <ButtonTabsTwo />
 
             {/* VerticalNavTabs */}
-            <VerticalNavTabs />
+            {/* <VerticalNavTabs /> */}
 
             {/* CardHeaderTabs */}
-            <CardHeaderTabs />
+            {/* <CardHeaderTabs /> */}
 
         </div>
 

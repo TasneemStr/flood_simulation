@@ -61,7 +61,7 @@ const ButtonTabsTwo = () => {
         {
           id: 'damage-assessment-form',
           title: 'Damage Assessment Form',
-          icon: 'solar:document-damage-outline',
+          icon: 'solar:document-outline',
           url: 'https://survey123.arcgis.com/share/8d9c139be57a4426b5c23b8ff5c74256?portalUrl=https://Strategizeit.maps.arcgis.com',
         },
         {
@@ -171,7 +171,7 @@ const ButtonTabsTwo = () => {
                           title={subTab.title}
                           className="w-100"
                           allow="camera; microphone; geolocation"
-                          style={{ height: 'calc(100vh - 250px)', border: 'none' }}
+                          style={{ height: 'calc(100vh )', border: 'none' }}
                           allowFullScreen
                           sandbox="allow-same-origin allow-scripts allow-popups allow-forms" // عشان تدعم الـ scripts والـ forms
                         />

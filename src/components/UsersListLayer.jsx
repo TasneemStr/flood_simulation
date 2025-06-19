@@ -108,7 +108,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list1.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -177,7 +177,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list2.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -246,7 +246,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list3.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -315,7 +315,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list4.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -384,7 +384,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list5.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -453,7 +453,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list6.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -522,7 +522,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list7.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -591,7 +591,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list8.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -660,7 +660,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list2.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -729,7 +729,7 @@ const UsersListLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list10.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>

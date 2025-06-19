@@ -110,7 +110,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img1.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -168,7 +168,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img2.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -226,7 +226,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img3.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -284,7 +284,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img4.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -342,7 +342,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img6.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -400,7 +400,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img5.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -458,7 +458,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img5.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -516,7 +516,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img5.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -574,7 +574,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img5.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -632,7 +632,7 @@ const WalletLayer = () => {
                         >
                           <img
                             src='assets/images/crypto/crypto-img5.png'
-                            alt='Wowdash'
+                            alt='StrategizeIT'
                             className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                           />
                           <span className='flex-grow-1 d-flex flex-column'>
@@ -741,7 +741,7 @@ const WalletLayer = () => {
           <div className='card h-100'>
             <div className='card-body p-0'>
               <div className='px-24 py-20'>
-                <span className='mb-8'>WowDash</span>
+                <span className='mb-8'>StrategizeIT</span>
                 <h5 className='text-2xl'>$40,570.85</h5>
                 <div className='mt-24 pb-24 mb-24 border-bottom d-flex align-items-center gap-16 justify-content-between flex-wrap'>
                   <div className='text-center d-flex align-items-center  flex-column'>
@@ -787,7 +787,7 @@ const WalletLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/crypto/crypto-img1.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1 d-flex flex-column'>
@@ -812,7 +812,7 @@ const WalletLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/crypto/crypto-img2.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1 d-flex flex-column'>
@@ -837,7 +837,7 @@ const WalletLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/crypto/crypto-img5.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1 d-flex flex-column'>
@@ -862,7 +862,7 @@ const WalletLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/crypto/crypto-img6.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1 d-flex flex-column'>
@@ -918,7 +918,7 @@ const WalletLayer = () => {
                   <span className='d-flex align-items-center gap-16'>
                     <img
                       src='assets/images/crypto/wallet-icon1.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='text-md mb-0 fw-medium text-primary-light d-block'>
@@ -936,7 +936,7 @@ const WalletLayer = () => {
                   <span className='d-flex align-items-center gap-16'>
                     <img
                       src='assets/images/crypto/wallet-icon2.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='text-md mb-0 fw-medium text-primary-light d-block'>
@@ -954,7 +954,7 @@ const WalletLayer = () => {
                   <span className='d-flex align-items-center gap-16'>
                     <img
                       src='assets/images/crypto/wallet-icon3.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='text-md mb-0 fw-medium text-primary-light d-block'>
@@ -972,7 +972,7 @@ const WalletLayer = () => {
                   <span className='d-flex align-items-center gap-16'>
                     <img
                       src='assets/images/crypto/wallet-icon4.png'
-                      alt='Wowdash'
+                      alt='StrategizeIT'
                       className='flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='text-md mb-0 fw-medium text-primary-light d-block'>

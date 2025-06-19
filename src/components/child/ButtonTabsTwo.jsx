@@ -13,7 +13,7 @@ const ButtonTabsTwo = () => {
           id: 'periodic-monitoring-map',
           title: 'Map View',
           icon: 'solar:map-point-outline',
-          url: 'https://strategizeit.maps.arcgis.com/apps/mapviewer/index.html?webmap=4cbab88dcb58465d9c67af7fa99b0771',
+          url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115894.29553083822!2d55.1571443!3d25.1152529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c95a4dce9d9%3A0x917b7448db3e3e5e!2z2KfZhNiq2LXYp9mF2Kkg2YTZhNin2YXYuSDYp9mE2LnZhNmK2Kkg2YXYsdmD2LI!5e0!3m2!1sar!2sae!4v1718622722321',
         },
         {
           id: 'periodic-monitoring-form',

@@ -230,7 +230,7 @@ const SignInLayer = () => {
         .signin-logo {
           width: 80px;
           height: 80px;
-          background-image: url('assets/images/logo.png');
+          background: linear-gradient(45deg, #3b82f6, #9333ea, #ec4899);
           border-radius: 50%;
           box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
           animation: pulse 2s infinite;

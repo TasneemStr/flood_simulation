@@ -4,7 +4,7 @@ import Link from "next/link";
 const CardWithBackgroundColor = () => {
   return (
     <div className=''>
-      <h6 className='mb-24'>Card With Background Color</h6>
+      <h6 className='mb-24'>Crisis System Mangament</h6>
       <div className='row gy-4'>
         <div className='col-xxl-3 col-sm-6'>
           <div className='card h-100 radius-12 bg-gradient-purple'>
@@ -15,11 +15,8 @@ const CardWithBackgroundColor = () => {
                   className='h5 mb-0'
                 />
               </div>
-              <h6 className='mb-8'>Brand Identity</h6>
-              <p className='card-text mb-8 text-secondary-light'>
-                Random Text gateway to the Origin al the Works Platform, &amp;
-                your unique block chain gateway identity.
-              </p>
+              <h6 className='mb-8'>Pre Crisis</h6>
+             
               <Link
                 href='#'
                 className='btn text-lilac-600 hover-text-lilac px-0 py-0 mt-16 d-inline-flex align-items-center gap-2'
@@ -37,10 +34,7 @@ const CardWithBackgroundColor = () => {
                 <Icon icon='ri:computer-fill' className='h5 mb-0' />
               </div>
               <h6 className='mb-8'>UI/UX Designer</h6>
-              <p className='card-text mb-8 text-secondary-light'>
-                Random Text gateway to the Origin al the Works Platform, &amp;
-                your unique block chain gateway identity.
-              </p>
+              
               <Link
                 href='#'
                 className='btn text-primary-600 hover-text-primary px-0 py-10 d-inline-flex align-items-center gap-2'
@@ -58,10 +52,7 @@ const CardWithBackgroundColor = () => {
                 <Icon icon='fluent:toolbox-20-filled' className='h5 mb-0' />
               </div>
               <h6 className='mb-8'>Business Strategy</h6>
-              <p className='card-text mb-8 text-secondary-light'>
-                Random Text gateway to the Origin al the Works Platform, &amp;
-                your unique block chain gateway identity.
-              </p>
+            
               <Link
                 href='#'
                 className='btn text-success-600 hover-text-success px-0 py-10 d-inline-flex align-items-center gap-2'

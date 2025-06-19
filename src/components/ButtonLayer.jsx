@@ -17,40 +17,40 @@ const ButtonLayer = () => {
         <div className="row gy-4">
 
             {/* DefaultButtons */}
-            <DefaultButtons />
+            {/* <DefaultButtons /> */}
 
             {/* OutlineButtons */}
-            <OutlineButtons />
+            {/* <OutlineButtons /> */}
 
             {/* RoundedButtons */}
-            <RoundedButtons />
+            {/* <RoundedButtons /> */}
 
             {/* RoundedButtonsTwo */}
-            <RoundedButtonsTwo />
+            {/* <RoundedButtonsTwo /> */}
 
             {/* SoftButtons */}
             <SoftButtons />
 
             {/* TextButtons */}
-            <TextButtons />
+            {/* <TextButtons /> */}
 
             {/* ButtonsWithLabel */}
-            <ButtonsWithLabel />
+            {/* <ButtonsWithLabel /> */}
 
             {/* ButtonsWithLabelRound */}
-            <ButtonsWithLabelRound />
+            {/* <ButtonsWithLabelRound /> */}
 
             {/* ButtonsSizes */}
-            <ButtonsSizes />
+            {/* <ButtonsSizes /> */}
 
             {/* CheckboxRadioButtons */}
-            <CheckboxRadioButtons />
+            {/* <CheckboxRadioButtons /> */}
 
             {/* ButtonsGroup */}
-            <ButtonsGroup />
+            {/* <ButtonsGroup /> */}
 
             {/* CustomButton */}
-            <CustomButton />
+            {/* <CustomButton /> */}
 
         </div>
 

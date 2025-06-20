@@ -115,7 +115,7 @@ const SignInLayer = () => {
         .signin-section {
           min-height: 100vh;
           position: relative;
-          background-image: url('https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80');
+          background-image: url('assets/images/home-flood/background.jpg');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -127,7 +127,9 @@ const SignInLayer = () => {
           left: 0;
           right: 0;
           bottom: 0;
-          background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 58, 138, 0.75) 50%, rgba(67, 56, 202, 0.9) 100%);
+          background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.8) 100%);
+
+          // background: linear-gradient(135deg, rgba(15, 23, 42, 0.65) 0%, rgba(30, 58, 138, 0.75) 50%, rgba(67, 56, 202, 0.9) 100%);
         }
         
         .signin-particles {
@@ -516,7 +518,7 @@ const SignInLayer = () => {
               </div>
             </div> */}
             
-            {/* Sign Up Link */}
+            {/* Sign Up Link
             <div className="text-center small">
               <p className="text-blue-200 mb-0">
                 Don't have an account?{' '}
@@ -524,7 +526,7 @@ const SignInLayer = () => {
                   Sign Up
                 </button>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

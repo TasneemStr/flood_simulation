@@ -12,13 +12,13 @@ const Page = () => {
   return (
     <>
       {/* MasterLayout */}
-      <MasterLayout>
+      {/* <MasterLayout> */}
         {/* Breadcrumb */}
-        <Breadcrumb title='Components / Button' />
+        {/* <Breadcrumb title='Components / Button' /> */}
 
         {/* ButtonLayer */}
         <ButtonLayer />
-      </MasterLayout>
+      {/* </MasterLayout> */}
     </>
   );
 };

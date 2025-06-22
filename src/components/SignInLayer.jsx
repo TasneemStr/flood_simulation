@@ -113,24 +113,24 @@ const SignInLayer = () => {
       
       <style jsx>{`
         .signin-section {
-          min-height: 100vh;
+          // min-height: 100vh;
           position: relative;
-          background-image: url('assets/images/home-flood/background.jpg');
+          background-image: url('assets/images/login/envato-labs-image-edit (7).png');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
         }
         
-        .signin-overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.8) 100%);
+        // .signin-overlay {
+        //   position: absolute;
+        //   top: 0;
+        //   left: 0;
+        //   right: 0;
+        //   bottom: 0;
+        //   background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.8) 100%);
 
-          // background: linear-gradient(135deg, rgba(15, 23, 42, 0.65) 0%, rgba(30, 58, 138, 0.75) 50%, rgba(67, 56, 202, 0.9) 100%);
-        }
+        //   // background: linear-gradient(135deg, rgba(15, 23, 42, 0.65) 0%, rgba(30, 58, 138, 0.75) 50%, rgba(67, 56, 202, 0.9) 100%);
+        // }
         
         .signin-particles {
           position: absolute;

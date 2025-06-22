@@ -6,7 +6,7 @@ const SoftButtons = () => {
         <div
             className="position-relative min-vh-100 w-100"
             style={{
-                backgroundImage: "url('/assets/images/home-flood/flood.jpg')",
+                backgroundImage: "url('assets/images/login/envato-labs-image-edit (11).png')",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 display: 'flex',
@@ -16,16 +16,7 @@ const SoftButtons = () => {
                 padding: '20px'
             }}
         >
-            {/* Overlay for readability */}
-            <div style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                height: '100%',
-                background: 'rgba(255,255,255,0.7)',
-                zIndex: 1
-            }} />
+           
             
             {/* Beautiful Title at the top */}
             <div style={{
@@ -41,12 +32,12 @@ const SoftButtons = () => {
                 <h1 style={{
                     fontSize: '2.8rem',
                     fontWeight: 700,
-                    color: 'rgba(30, 41, 59, 0.85)',
-                    textShadow: '0 4px 24px rgba(0,0,0,0.18)',
+                    color: '#ffffff',
+                    textShadow: '0 4px 24px rgba(0,0,0,0.6), 0 2px 8px rgba(0,0,0,0.8)',
                     letterSpacing: '1px',
                     margin: 0,
                     padding: 0,
-                    opacity: 0.95,
+                    opacity: 1,
                 }}>
                     Crisis Management System
                 </h1>
@@ -59,7 +50,7 @@ const SoftButtons = () => {
                     {/* Pre Crisis Card */}
                     <div className="col-lg-4 col-md-6 col-12">
                         <Link
-                            href="/crisis#pre-crisis"
+                            href="/crisis?tab=pre-crisis"
                             style={{
                                 textDecoration: 'none',
                                 display: 'block',
@@ -68,11 +59,11 @@ const SoftButtons = () => {
                             <div
                                 className="card h-100 border-0 shadow-lg position-relative overflow-hidden"
                                 style={{
-                                    background: 'rgba(59, 130, 246, 0.1)',
-                                    backdropFilter: 'blur(12px)',
-                                    WebkitBackdropFilter: 'blur(12px)',
+                                    background: 'rgba(59, 130, 246, 0.15)',
+                                    backdropFilter: 'blur(20px)',
+                                    WebkitBackdropFilter: 'blur(20px)',
                                     borderRadius: '24px',
-                                    boxShadow: '0 12px 40px rgba(59, 130, 246, 0.2)',
+                                    boxShadow: '0 20px 60px rgba(0,0,0,0.4), 0 8px 25px rgba(59, 130, 246, 0.3), inset 0 1px 0 rgba(255,255,255,0.2)',
                                     border: '1px solid rgba(59, 130, 246, 0.3)',
                                     cursor: 'pointer',
                                     transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
@@ -85,27 +76,28 @@ const SoftButtons = () => {
                                         style={{
                                             width: '80px',
                                             height: '80px',
-                                            background: 'rgba(59, 130, 246, 0.2)',
-                                            border: '2px solid rgba(59, 130, 246, 0.4)'
+                                            background: 'rgba(59, 130, 246, 0.15)',
+                                            border: '3px solid rgba(59, 130, 246, 0.6)'
                                         }}
                                     >
                                         <span style={{ fontSize: '2rem', color: '#3b82f6' }}>🛡️</span>
                                     </div>
                                     <h3 style={{
-                                        fontSize: '1.5rem',
-                                        fontWeight: 700,
-                                        color: '#1e40af',
+                                        fontSize: '1.6rem',
+                                        fontWeight: 800,
+                                        color: '#ffffff',
                                         marginBottom: '12px',
-                                        textShadow: '0 2px 8px rgba(30, 64, 175, 0.1)'
+                                        textShadow: '0 4px 12px rgba(0,0,0,0.8), 0 2px 6px rgba(30, 64, 175, 0.6)'
                                     }}>
                                         Pre Crisis
                                     </h3>
                                     <p style={{
-                                        fontSize: '1rem',
-                                        color: '#1e40af',
-                                        opacity: 0.8,
+                                        fontSize: '1.1rem',
+                                        color: '#ffffff',
+                                        fontWeight: 500,
                                         lineHeight: '1.5',
-                                        margin: 0
+                                        margin: 0,
+                                        textShadow: '0 3px 8px rgba(0,0,0,0.7), 0 1px 3px rgba(0,0,0,0.5)'
                                     }}>
                                         Prevention and preparation strategies
                                     </p>
@@ -117,7 +109,7 @@ const SoftButtons = () => {
                     {/* During Crisis Card */}
                     <div className="col-lg-4 col-md-6 col-12">
                         <Link
-                            href="/crisis#during-crisis"
+                            href="/crisis?tab=during-crisis"
                             style={{
                                 textDecoration: 'none',
                                 display: 'block',
@@ -126,11 +118,11 @@ const SoftButtons = () => {
                             <div
                                 className="card h-100 border-0 shadow-lg position-relative overflow-hidden"
                                 style={{
-                                    background: 'rgba(245, 158, 11, 0.1)',
-                                    backdropFilter: 'blur(12px)',
-                                    WebkitBackdropFilter: 'blur(12px)',
+                                    background: 'rgba(245, 158, 11, 0.15)',
+                                    backdropFilter: 'blur(20px)',
+                                    WebkitBackdropFilter: 'blur(20px)',
                                     borderRadius: '24px',
-                                    boxShadow: '0 12px 40px rgba(245, 158, 11, 0.2)',
+                                    boxShadow: '0 20px 60px rgba(0,0,0,0.4), 0 8px 25px rgba(245, 158, 11, 0.3), inset 0 1px 0 rgba(255,255,255,0.2)',
                                     border: '1px solid rgba(245, 158, 11, 0.3)',
                                     cursor: 'pointer',
                                     transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
@@ -143,27 +135,28 @@ const SoftButtons = () => {
                                         style={{
                                             width: '80px',
                                             height: '80px',
-                                            background: 'rgba(245, 158, 11, 0.2)',
-                                            border: '2px solid rgba(245, 158, 11, 0.4)'
+                                            background: 'rgba(245, 158, 11, 0.15)',
+                                            border: '3px solid rgba(245, 158, 11, 0.6)'
                                         }}
                                     >
                                         <span style={{ fontSize: '2rem', color: '#f59e0b' }}>⚠️</span>
                                     </div>
                                     <h3 style={{
-                                        fontSize: '1.5rem',
-                                        fontWeight: 700,
-                                        color: '#d97706',
+                                        fontSize: '1.6rem',
+                                        fontWeight: 800,
+                                        color: '#ffffff',
                                         marginBottom: '12px',
-                                        textShadow: '0 2px 8px rgba(217, 119, 6, 0.1)'
+                                        textShadow: '0 4px 12px rgba(0,0,0,0.8), 0 2px 6px rgba(217, 119, 6, 0.6)'
                                     }}>
                                         During Crisis
                                     </h3>
                                     <p style={{
-                                        fontSize: '1rem',
-                                        color: '#d97706',
-                                        opacity: 0.8,
+                                        fontSize: '1.1rem',
+                                        color: '#ffffff',
+                                        fontWeight: 500,
                                         lineHeight: '1.5',
-                                        margin: 0
+                                        margin: 0,
+                                        textShadow: '0 3px 8px rgba(0,0,0,0.7), 0 1px 3px rgba(0,0,0,0.5)'
                                     }}>
                                         Active response and management
                                     </p>
@@ -175,7 +168,7 @@ const SoftButtons = () => {
                     {/* Post Crisis Card */}
                     <div className="col-lg-4 col-md-6 col-12">
                         <Link
-                            href="/crisis#post-crisis"
+                            href="/crisis?tab=post-crisis"
                             style={{
                                 textDecoration: 'none',
                                 display: 'block',
@@ -184,11 +177,11 @@ const SoftButtons = () => {
                             <div
                                 className="card h-100 border-0 shadow-lg position-relative overflow-hidden"
                                 style={{
-                                    background: 'rgba(239, 68, 68, 0.1)',
-                                    backdropFilter: 'blur(12px)',
-                                    WebkitBackdropFilter: 'blur(12px)',
+                                    background: 'rgba(239, 68, 68, 0.15)',
+                                    backdropFilter: 'blur(20px)',
+                                    WebkitBackdropFilter: 'blur(20px)',
                                     borderRadius: '24px',
-                                    boxShadow: '0 12px 40px rgba(239, 68, 68, 0.2)',
+                                    boxShadow: '0 20px 60px rgba(0,0,0,0.4), 0 8px 25px rgba(239, 68, 68, 0.3), inset 0 1px 0 rgba(255,255,255,0.2)',
                                     border: '1px solid rgba(239, 68, 68, 0.3)',
                                     cursor: 'pointer',
                                     transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
@@ -201,27 +194,28 @@ const SoftButtons = () => {
                                         style={{
                                             width: '80px',
                                             height: '80px',
-                                            background: 'rgba(239, 68, 68, 0.2)',
-                                            border: '2px solid rgba(239, 68, 68, 0.4)'
+                                            background: 'rgba(239, 68, 68, 0.15)',
+                                            border: '3px solid rgba(239, 68, 68, 0.6)'
                                         }}
                                     >
                                         <span style={{ fontSize: '2rem', color: '#ef4444' }}>🔄</span>
                                     </div>
                                     <h3 style={{
-                                        fontSize: '1.5rem',
-                                        fontWeight: 700,
-                                        color: '#dc2626',
+                                        fontSize: '1.6rem',
+                                        fontWeight: 800,
+                                        color: '#ffffff',
                                         marginBottom: '12px',
-                                        textShadow: '0 2px 8px rgba(220, 38, 38, 0.1)'
+                                        textShadow: '0 4px 12px rgba(0,0,0,0.8), 0 2px 6px rgba(220, 38, 38, 0.6)'
                                     }}>
                                         Post Crisis
                                     </h3>
                                     <p style={{
-                                        fontSize: '1rem',
-                                        color: '#dc2626',
-                                        opacity: 0.8,
+                                        fontSize: '1.1rem',
+                                        color: '#ffffff',
+                                        fontWeight: 500,
                                         lineHeight: '1.5',
-                                        margin: 0
+                                        margin: 0,
+                                        textShadow: '0 3px 8px rgba(0,0,0,0.7), 0 1px 3px rgba(0,0,0,0.5)'
                                     }}>
                                         Recovery and improvement
                                     </p>

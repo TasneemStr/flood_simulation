@@ -13,9 +13,9 @@ export const metadata = {
 const Page = () => {
   return (
     <>
-    <MasterLayout>
+    {/* <MasterLayout> */}
      <TabsLayer />
-     </MasterLayout>
+     {/* </MasterLayout> */}
     </>
   );
 };

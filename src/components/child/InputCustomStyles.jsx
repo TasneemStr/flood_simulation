@@ -1,3 +1,4 @@
+'use client'
 import { Icon } from '@iconify/react/dist/iconify.js';
 import React from 'react';
 
@@ -9,8 +10,26 @@ const InputCustomStyles = () => {
                     <h5 className="card-title mb-0">Input Custom Styles</h5>
                 </div>
                 <div className="card-body">
-                    <form className="row gy-3 needs-validation" noValidate="">
-                        <div className="col-md-6">
+                    <div className="row">
+                        {/* Google Map iframe on the left */}
+                        
+                        
+                        <div className="col-md-12">
+                            <div className="mb-3">
+                                <label className="form-label">Google Map</label>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799160891!2d-74.25987368715491!3d40.697670063559165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2seg!4v1640123456789!5m2!1sen!2seg"
+                                    width="100%"
+                                    height="400"
+                                    style={{ border: 0, borderRadius: '8px' }}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                            </div>
+                        </div>
+                        <div className="col-md-12">
+                                   <div className="col-md-6">
                             <label className="form-label">Input with Placeholder</label>
                             <input
                                 type="text"
@@ -39,63 +58,18 @@ const InputCustomStyles = () => {
                                 Please provide email address.
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <label className="form-label">Input with Payment </label>
-                            <div className="input-group has-validation">
-                                <span className="input-group-text bg-base">
-                                    <img src="assets/images/card/payment-icon.png" alt="image_icon" />
-                                </span>
-                                <input
-                                    type="text"
-                                    className="form-control flex-grow-1"
-                                    placeholder="Card number"
-                                    required=""
-                                />
-                                <div className="invalid-feedback">
-                                    Please provide card number.
-                                </div>
-                            </div>
                         </div>
-                        <div className="col-md-6">
-                            <label className="form-label">Input with Phone </label>
-                            <div className="form-mobile-field has-validation">
-                                <select className="form-select" required defaultValue={"MU"}>
-                                    <option value="MU">MU</option>
-                                    <option value="US">US</option>
-                                    <option value="BN">BN</option>
-                                    <option value="EN">EN</option>
-                                    <option value="AM">AM</option>
-                                </select>
-                                <input
-                                    type="text"
-                                    name="#0"
-                                    className="form-control"
-                                    placeholder="+1 (555) 000-0000"
-                                    required=""
-                                />
-                                <div className="invalid-feedback">
-                                    Please provide phone number.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <label className="form-label">Input</label>
-                            <div className="input-group has-validation">
-                                <input
-                                    type="text"
-                                    className="form-control"
-                                    placeholder="www.random.com"
-                                    defaultValue="www.random.com"
-                                />
-                                <button type="button" className="input-group-text bg-base">
-                                    <Icon icon="lucide:copy" /> Copy
-                                </button>
-                                <div className="invalid-feedback">Looks good.</div>
-                            </div>
-                        </div>
+
+                        
+                    </div>
+
+                    {/* Original form fields */}
+                    <form className="row gy-3 needs-validation mt-4" noValidate="">
+                 
+                    
                         <div className="col-12">
                             <button className="btn btn-primary-600" type="submit">
-                                Submit form
+                                Submit
                             </button>
                         </div>
                     </form>
